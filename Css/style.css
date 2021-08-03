@@ -181,7 +181,7 @@ h3{
 }
 
 .starting-background{
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #030303;
     background: url(../img/starting-background.jpg) no-repeat right bottom;
 }
@@ -289,6 +289,7 @@ h3{
     background-color: #710707;
     border-radius: 0px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .gallery__vtour-header{
