@@ -98,7 +98,7 @@ a{
 /*header start*/
 .header{
     background-color: #030303;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -181,9 +181,9 @@ h3{
 }
 
 .starting-background{
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: #030303;
-    background: url(../img/starting-background.jpg) no-repeat right;
+    background: url(../img/starting-background.jpg) no-repeat right bottom;
 }
 
 .starting-header{
