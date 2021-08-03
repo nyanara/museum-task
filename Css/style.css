@@ -272,12 +272,10 @@ h3{
 .gallery__vtour{
     text-align: left;
     vertical-align: top;
-    display: inline-block;
-    padding-right: 60px;
-}
-
-.gallery__vtour:last-child{
-    padding-right: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 60px;
+    grid-column: span 2;
 }
 
 .caption{
@@ -302,6 +300,10 @@ h3{
     letter-spacing: 5px;
 }
 
+.gallery__vtour-element{
+    position: relative;
+}
+
 .gallery__img{
     width: 440px;
     height: 285px;
@@ -312,3 +314,57 @@ h3{
 /*Virtual tour end*/
 
 
+/* Explore start */
+
+.explore__header{
+    font-family: 'Forum';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+    text-decoration: none;
+    padding-left: 0px;
+    max-width: 660px;
+    margin-bottom: 25px;
+    padding-top:75px;
+}
+
+.explore__headerline{
+    width: 660px;
+    height: 3px;
+    left: 0px;
+    top:115px;
+    background-color: #710707;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.explore__content-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: white;
+    margin-bottom: 25px;
+    max-width: 660px;
+}
+
+.explore__table{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: wrap;
+    grid-gap: 60px;
+    text-align: left;
+}
+
+.explore__img{
+    display: block;
+    align-items:right;
+    margin-top: 90px;
+}
+
+/* Explore end */
